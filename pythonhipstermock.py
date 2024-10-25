@@ -2,6 +2,7 @@ from base64 import b64decode
 import json
 import time
 import socket
+import paho.mqtt.client as paho
 
 def load_dict_from_file():
     f = open('requestanswer.txt','r')
